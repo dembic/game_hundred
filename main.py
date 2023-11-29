@@ -30,7 +30,7 @@ class GameHundred(GridLayout):
         self.user = TextInput(multiline=False, input_filter='int', size_hint=(1.0, .05))
         self.add_widget(self.user)
 
-        self.add_widget(Label(text=str(rnd), size_hint=(1.0, .05)))
+        #self.add_widget(Label(text=str(rnd), size_hint=(1.0, .05)))
 
         self.userButton = Button(text='Угадай', on_press=self.clsInputText, size_hint=(1.0, .05))
         self.add_widget(self.userButton)
